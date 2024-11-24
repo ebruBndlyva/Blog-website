@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+     .comments {
+          display: none;
+     }
+
+     .tag .tags span {
+          padding: 0px 8px;
+          font-size: 12px;
+
+     } 
+}
+@media (max-width: 993px) {
+    
+
+     .tag .tags span {
+          padding: 0px 8px;
+          font-size: 12px;
+
+     }
+}

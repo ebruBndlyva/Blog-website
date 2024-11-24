@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #F1F1F1;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  height: 25%;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  
+}
+
+.header-info .head-title {
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+.header-desc .desc-right {
+  margin-left: 5px;
+  padding: 3px 5px;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-one {
+  margin-bottom: 50px;
+  width: 100%;
+  box-shadow: 5px 10px 20px 6px rgba(0, 0, 0, 0.4);
+}
+
+.blog-one .image {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-one .bg-one-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.bg-info {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.one-title {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.one-desc-title {
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.one-desc-note {
+  color: #b9b9b9;
+  font-size: 18px;
+}
+
+.bg-info p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.blog-one-link{
+ 
+  padding: 17px 0px;
+}
+.bg-info a {
+  
+  text-decoration: none;
+  padding: 15px 25px;
+  color: black;
+  font-weight: 600;
+  border: 1px solid rgba(116, 116, 116, 0.4);
+}
+
+.bg-info a:hover {
+  background-color: #cccccc;
+}
+
+.comments {
+  
+  padding: 10px 15px;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+}
+
+.comment {
+  font-weight: 600;
+}
+
+.zero {
+  color: white;
+  background-color: black;
+  padding: 2px 6px;
+  margin-left: 10px;
+}
+
+.two {
+  color: white;
+  background-color: black;
+  padding: 4px 8px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-right .name {
+  margin-bottom: 50px;
+
+
+  box-shadow: 5px 10px 20px 6px rgba(0, 0, 0, 0.4);
+}
+.main-right .name img{
+  width: 100%;
+}
+
+.name-info {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+.main-right .name h4 {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.main-right .name p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.post {
+  margin-bottom: 50px;
+  box-shadow: 5px 10px 20px 6px rgba(0, 0, 0, 0.4);
+}
+
+.post img {
+  width: 50px;
+  height: 50px;
+}
+
+.post-head {
+  background-color: #ece4e4;
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+}
+
+.post-card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0 15px 15px;
+  border-bottom: 1px solid rgba(116, 116, 116, 0.4);
+}
+
+.post-card:hover {
+  background-color: #CCCCCC;
+}
+
+.post-desc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.tag {
+  box-shadow: 5px 10px 20px 6px rgba(0, 0, 0, 0.4);
+}
+
+.tag-title {
+  background-color: #F1F1F1;
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+}
+
+.tags {
+  background-color: white;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  padding: 3px 8px;
+  font-size: 14px;
+  background-color: #F1F1F1;
+}
+
+.tags span:first-of-type {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding: 40px 0 40px 15px;
+  background-color: #616161;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.btn1 {
+  padding: 15px 20px;
+  background-color: #4b4a4a;
+  color: #818181;
+  cursor: not-allowed;
+}
+
+.btn1:hover {
+  background-color: #818181;
+  color: #4b4a4a;
+}
+
+.btn2 {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer-desc {
+  color: white;
+}
+
+.footer-desc a {
+
+  color: white;
+}
